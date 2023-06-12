@@ -1,0 +1,121 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Good to see you again!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye","bye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Sad to see you go :("
+        ]
+      },
+      {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Sazzy.", "I'm Sazzy!", "I'm Saz aka Sazzy."],
+         "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "Id like to buy something",
+          "whats on the menu",
+          "what do you recommend?",
+          "could i get something to eat"
+        ],
+        "responses": [
+          "We sell coffee,cookie and tea",
+          "We have cookie, coffee and tea", 
+          "We sell chocolate chip cookies for $2!", 
+          "Cookies and coffee are on the menu!"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "How does payment work"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Did you hear they arrested the devil? Yeah, they got him on possession.",
+          "My IQ test results came back. They were negative.",
+          "What do you call a hippie’s wife? Mississippi."
+        ]
+      },
+      {
+        "tag": "owner",
+        "patterns": [
+          "Who created you?",
+          "Who made you?",
+          "Who is your boss?",
+          "Who is your owner?",
+          "How were you born?"
+        ],
+        "responses": [
+          "I was designed by Sarfraz Nawaz.",
+          "I was not born, but instead programmed by Sarfraz Nawaz.",
+          "I am an AI assistant chatbot designed by Sarfraz."
+        ]
+      },
+      {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!", "We are open on the weekdays from 7am to 4pm"],
+         "context_set": ""
+      }
+    ]
+  }
